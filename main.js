@@ -39,7 +39,6 @@ actionButton.addEventListener("click", () => {
     count.textContent = `Current attempts: ${atemptsCount}`;
 
     if (userValue === res) {
-      
       greenStyleChange();
       pcAnswer.textContent = `Congratulations! You guessed the number in ${atemptsCount} attempts!`;
       greenContainerStyle();
