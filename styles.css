@@ -1,0 +1,76 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  margin: 0;
+}
+
+.main-container {
+  background-color: white;
+  height: 500px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 8px green;
+}
+.input-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+input {
+  width: 114px;
+  height: 60px;
+  border: solid 1px black;
+  border-radius: 20px;
+  font-size: 3rem;
+  color: green;
+}
+button {
+  width: 118px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  font-size: 1.4rem;
+}
+button:hover {
+  background-color: rgb(10, 49, 10);
+}
+button:active {
+  color: red;
+}
+
+.title {
+  display: flex;
+  justify-content: start;
+  margin: auto;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+.pc-answer {
+  font-size: 1.5rem;
+}
+.count {
+  color: green;
+  font-size: 1.5rem;
+}
